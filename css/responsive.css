@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+  /* Hero section */
+  .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: inherit;
+    display: none;
+    width: inherit;
+    left: inherit;
+    transform: inherit;
+  }
+  .dropdown-hover:hover > .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  .section-service {
+    background-size: cover;
+    padding: 25rem 0;
+  }
+}
+@media (max-width: 550px) {
+  .slide-content {
+    width: 95%;
+  }
+}
