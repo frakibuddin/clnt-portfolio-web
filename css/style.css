@@ -107,13 +107,14 @@ header {
   width: 100%;
   z-index: 99;
   transition: 0.3s;
+  -webkit-backdrop-filter: blur(5rem);
+  backdrop-filter: blur(5rem);
 }
 header.active {
   background: linear-gradient(#1ebfe7b0, #244cdfb9);
   position: fixed;
   border-bottom: 0.1rem solid var(--border-color);
-  -webkit-backdrop-filter: blur(5rem);
-  backdrop-filter: blur(5rem);
+
   animation: headerAnim 0.3s ease forwards;
 }
 .header-btn {
@@ -401,7 +402,7 @@ ul {
   justify-content: center;
 }
 .banner-section-contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
     url(../img/contact-banner.jpg);
   background-size: cover;
   background-position: center;

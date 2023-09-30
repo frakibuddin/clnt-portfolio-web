@@ -63,7 +63,7 @@ const navbar_brand = document.querySelector(".navbar-brand img");
 window.onscroll = function () {
   // let posHight = document.documentElement.scrollHeight;
   let pos = window.scrollY;
-  if (pos > 700) {
+  if (pos > 650) {
     navbar_brand.src = "img/White-Logo.png";
     header.classList.add("active");
   } else {
