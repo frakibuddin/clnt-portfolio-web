@@ -14,6 +14,67 @@
 
 <body>
     <!-- ============ Start Hero Section ============ -->
+    <!-- popup start -->
+    <div class="modal fade popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog show">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-2 fw-bold" id="exampleModalLabel">Lorem, ipsum dolor.
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-5 py-3">
+                    <div class="ftp-frms">
+                        <form action="" class="">
+                            <div class="form-group mt-4">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group mt-4">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+
+
+                            <div class="form-group mt-4">
+                                <textarea name="" class="form-control rounded" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup end -->
+    <!-- ============ Start Hero Section ============ -->
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-inner d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-5">
+                    <div class="info d-flex align-items-center gap-3 ">
+                        <i class="fa-solid fa-envelope text-light"></i>
+                        <a href="mailto:info@midassys.com"
+                            class=" text-decoration-none text-light font-arial">info@midassys.com</a>
+                    </div>
+                    <div class="info d-flex align-items-center gap-3 ">
+                        <i class="fa-solid fa-phone text-light"></i>
+                        <a href="tel:+918848875088" class="text-decoration-none text-light font-arial">+91 88 488 75
+                            088</a>
+                    </div>
+                </div>
+                <ul class="social-link">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="section-hero">
         <header>
             <div class="container">
@@ -35,10 +96,11 @@
                                     <a class="nav-link " aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="services.html">Our Service</a>
+                                    <a class="nav-link " href="about.html">About</a>
                                 </li>
+
                                 <!-- Navbar dropdown -->
-                                <li class="nav-item dropdown dropdown-hover position-static ">
+                                <li class="nav-item dropdown dropdown-hover position-static">
                                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
                                         role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                         Services
@@ -51,7 +113,7 @@
 
                                                 <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                                                     <div class="list-group list-group-flush">
-                                                        <h2 class="text-primary">Web Development</h2>
+                                                        <h2 class="text-primary pl-3 ml-5">Web Development</h2>
                                                         <a href="service.html"
                                                             class="list-group-item list-group-item-action">Web
                                                             Designing</a>
@@ -87,8 +149,8 @@
                                                             Testing</a>
                                                     </div>
                                                 </div>
-                                                <hr class="mt-4">
-                                                <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+
+                                                <div class="col-md-6 col-lg-4 mb-3 mt-4 mb-md-0">
                                                     <div class="list-group list-group-flush">
                                                         <h2 class="text-primary">Ecommerce</h2>
                                                         <a href="service.html"
@@ -138,7 +200,9 @@
                                         </div>
                                     </div>
                                 </li>
-
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Bolg</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
@@ -277,6 +341,146 @@
         </div>
     </section>
 
+    <!-- ============ Start Accriding Section ============ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 js-scroll slide-left scrolled">
+                    <!-- <img src="img/faq-image.svg" class="img-fluid w-25" alt=""> -->
+                    <h2 class=" fw-bold display-3 mt-5 mb-4">Usually asking
+                        Answer to question</h2>
+                    <p>We've listed answers to some of your common questions here. I urge you to take a look at this
+                        list before asking us questions. Then you will not have to wait for our answer and you will save
+                        valuable time.</p>
+                </div>
+                <div class="col-md-6 js-scroll slide-right scrolled">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    How can I get started with using your platform?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">To get started, simply [provide a step-by-step guide or link
+                                    to resources for onboarding</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What is the purpose of this product/service?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The purpose of our product/service is to [provide a brief
+                                    description of its main function or benefits].</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    What is your refund policy?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> We have a [mention the duration, e.g., 30-day] refund
+                                    policy. If you're not satisfied with our product, you can request a refund within
+                                    this period.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Lorem ipsum dolor sit amet.
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Corporis earum officia mollitia sequi iure sunt, non hic animi quibusdam ab iusto
+                                    maxime.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Lorem ipsum dolor sit amet
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Corporis earum officia mollitia sequi iure sunt, non hic animi quibusdam ab iusto
+                                    maxime.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    amet consectetur adipisicing elit
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Recusandae sed consequatur odio consectetur laudantium accusamus sunt eum eligendi,
+                                    laborum, ullam alias! At, facilis assumenda qui ullam autem enim. Vitae, libero?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                    aria-controls="flush-collapseSeven">
+                                    consectetur adipisicing elit
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit, amet .
+                                    Corporis earum officia mollitia sequi iure sunt, non hic animi quibusdam ab iusto
+                                    maxime.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                    aria-controls="flush-collapseEight">
+                                    Lorem ipsum dolor
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Corporis earum officia mollitia sequi iure sunt, non hic animi quibusdam ab iusto
+                                    maxime.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ End Accriding Section ============ -->
+
     <!-- ============ Start Blog Section ============ -->
     <section class="blog-section">
         <div class="container">
@@ -371,8 +575,8 @@
                         <h2 class="fw-bold text-light mb-4 display-6">Useful Links</h2>
                         <ul class="footer-link">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about.html">Services</a></li>
 
                             <li><a href="contact.html">Contact</a></li>
                         </ul>

@@ -9,6 +9,13 @@
     left: inherit;
     transform: inherit;
   }
+  .topbar {
+    display: none;
+  }
+  header {
+    -webkit-backdrop-filter: blur(5rem);
+    backdrop-filter: blur(5rem);
+  }
   .mt-md-5 {
     margin-top: 3rem;
   }

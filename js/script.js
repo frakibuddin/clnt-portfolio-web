@@ -54,6 +54,13 @@ $(document).ready(function () {
   $(".prev").click(function () {
     owl_brand.trigger("owl.prev");
   });
+
+  //onload popup show
+  $(window).on("load", function () {
+    setTimeout(() => {
+      $(".modal").modal("show");
+    }, 5000);
+  });
 });
 
 //stckey header
