@@ -732,7 +732,7 @@ ul {
 .dropdown-menu .list-group-item:hover {
   color: #244ddf;
 }
-.sidebar-navigation .modal.show .modal-dialog {
+.modal.show .modal-dialog {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
