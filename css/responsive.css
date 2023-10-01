@@ -1,21 +1,20 @@
 @media (max-width: 991px) {
   /* Hero section */
   .dropdown-menu {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     opacity: 1;
     visibility: inherit;
     display: none;
     width: inherit;
     left: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
     transform: inherit;
+    position: inherit;
   }
-  .topbar {
-    display: none;
-  }
-  header {
-    -webkit-backdrop-filter: blur(5rem);
-    backdrop-filter: blur(5rem);
-  }
+
   .mt-md-5 {
     margin-top: 3rem;
   }
@@ -34,5 +33,11 @@
 @media (max-width: 550px) {
   .slide-content {
     width: 95%;
+  }
+  .topbar {
+    display: none;
+  }
+  .carousel-inner {
+    height: 100vh;
   }
 }

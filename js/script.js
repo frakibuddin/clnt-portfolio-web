@@ -78,3 +78,19 @@ window.onscroll = function () {
     navbar_brand.src = "img/blue-Logo.png";
   }
 };
+
+// dropdown-menu
+let dropdown_menu = document.querySelector(".dropdown-menu");
+let dropdown_toggle = document.querySelectorAll("#d-down")[0];
+
+dropdown_toggle.onmouseenter = () => {
+  dropdown_menu.classList.add("active");
+};
+
+dropdown_menu.onmouseleave = () => {
+  dropdown_menu.classList.remove("active");
+};
+
+document.querySelector("body").onclick = () => {
+  dropdown_menu.classList.remove("active");
+};
