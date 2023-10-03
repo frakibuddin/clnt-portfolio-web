@@ -56,11 +56,11 @@ $(document).ready(function () {
   });
 
   //onload popup show
-  $(window).on("load", function () {
-    setTimeout(() => {
-      $(".modal").modal("show");
-    }, 5000);
-  });
+  // $(window).on("load", function () {
+  //   setTimeout(() => {
+  //     $(".modal").modal("show");
+  //   }, 5000);
+  // });
 });
 
 //stckey header

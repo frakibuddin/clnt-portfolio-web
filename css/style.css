@@ -157,7 +157,6 @@ header.active {
   background: -o-linear-gradient(#1ebfe7b0, #244cdfb9);
   background: linear-gradient(#1ebfe7b0, #244cdfb9);
   position: fixed;
-  /* height: 100%; */
   border-bottom: 0.1rem solid var(--border-color);
   -webkit-backdrop-filter: blur(5rem);
   backdrop-filter: blur(5rem);
@@ -309,7 +308,8 @@ header.active .navbar-expand-lg .navbar-nav .nav-link {
 }
 .table-navigation-inner {
   position: sticky !important;
-  top: 8rem;
+  top: 6rem;
+  padding-top: 2rem;
 }
 
 .box {
